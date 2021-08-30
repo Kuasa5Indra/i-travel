@@ -1,0 +1,92 @@
+<mjml>
+  <mj-body background-color="#D9DAEB">
+    <mj-section background-color="white" 
+     padding-bottom="0px" padding-top="0px" border-bottom="3px dashed #D9DAEB"
+     >
+      <mj-column vertical-align="top" width="100%">
+        <mj-image src="asset/logo.svg" align="center"
+        border="none" width="207px" padding="17px 0px 24px 0px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding-bottom="0px" padding-top="0px">
+      <mj-column vertical-align="top" width="100%">
+        <mj-text align="center" padding-top="24px" font-size="36px" 
+        font-family="Playfair Display, Times New Roman, serif" font-weight="bold" color="#0032A3">
+          Don't Forget your E-ticket!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding-bottom="0px" padding-top="0px">
+      <mj-column vertical-align="top" width="100%">
+        <mj-image src="asset/jakarta.png" width="574px" height="278px" padding="38px 56px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="0px 33px" border-bottom="3px dashed #D9DAEB">
+      <mj-column vertical-align="top" width="100%">
+        <mj-text align="left" font-size="18px" 
+        font-family="Assistant, Arial, sans-serif" font-weight="normal" color="#0032A3">
+          Hai Danial Agung
+          <br><br>
+          Tiket digital kamu sudah dicetak.<br>
+          Booking ID <strong>#34567890</strong>
+        </mj-text>
+        <mj-table color="#0032A3" font-size="18px" font-family="Assistant, Arial, sans-serif">
+          <tr>
+            <td>Members</td>            
+          </tr>
+          <tr>
+            <td><strong>Danial Agung</strong></td>
+            <td style="text-align: right">Indonesia, ID</td>
+          </tr>
+          <tr>
+            <td><strong>Annisa Lestari</strong></td>
+            <td style="text-align: right">Indonesia, ID</td>
+          </tr>
+        </mj-table>
+        <mj-table color="#0032A3" font-size="18px" font-family="Assistant, Arial, sans-serif">
+          <tr>
+            <td>Travel Details</td>            
+          </tr>
+          <tr>
+            <td><strong>Departure</strong></td>
+            <td style="text-align: right">DKI Jakarta, Indonesia</td>
+          </tr>
+          <tr>
+            <td><strong>Date and Time</strong></td>
+            <td style="text-align: right">Tue, 17 Aug 2021</td>
+          </tr>
+        </mj-table>
+        <mj-button background-color="#FF7121"  align="center" border-radius="4px" padding-bottom="24px">
+          Check Detail
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white" padding="0px 33px">
+      <mj-column vertical-align="top" width="100%">
+        <mj-text align="left" font-size="18px" padding-top="24px"
+        font-family="Assistant, Arial, sans-serif" font-weight="normal" color="#0032A3">
+          Butuh Bantuan ?
+        </mj-text>
+        <mj-table color="#0032A3" font-size="18px" font-family="Assistant, Arial, sans-serif" padding-bottom="24px">
+          <tr>
+            <td style="width: 45px">
+              <img src="asset/ic_help.svg" width="45px" height="45px">
+            </td>
+            <td style="padding-left: 17px">
+              support@itravel.com
+              <br>
+              0812 - 345 - 6789
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="35px" padding-top="5px">
+      <mj-column>
+        <mj-text align="center" color="#6E6E6E" font-family="Assistant, Arial, sans-serif">
+          2021 iTravel, All rights reserved
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,276 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i-Travel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../frontend/lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../frontend/lib/gjigo/css/gijgo.min.css">
+    <link rel="stylesheet" href="../frontend/styles/style.css">
+</head>
+<body>
+    <!-- Navbar-->
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-light bg-white">
+            <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-md-auto mr-lg-0">
+                <a href="#" class="navbar-brand">
+                    <img src="../frontend/icons/logo.svg" alt="logo">
+                </a>
+            </div>
+            <ul class="navbar-nav mr-auto d-none d-lg-block">
+                <li>
+                    <span class="text-muted">
+                        | &nbsp; Solution for the best travel
+                    </span>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+    <main>
+        <section class="section-details-heading"></section>
+        <section class="section-details-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col p-0">
+                        <nav>
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">Paket Travel</li>
+                                <li class="breadcrumb-item">Details</li>
+                                <li class="breadcrumb-item active">Checkout</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="card card-details">
+                            <h1>Who's going ?</h1>
+                            <p>Trip to DKI Jakarta, Indonesia</p>
+                            <div class="attendes">
+                                <table class="table table-responsive-sm text-center table-borderless">
+                                    <thead>
+                                        <tr>
+                                            <td>Picture</td>
+                                            <td>Name</td>
+                                            <td>Nationality</td>
+                                            <td>VISA</td>
+                                            <td>Passport</td>
+                                            <td></td>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="align-middle">
+                                                    <img src="../frontend/images/member_row_1.png" alt="Member">
+                                                </td>
+                                                <td class="align-middle">
+                                                    Danial Agung
+                                                </td>
+                                                <td class="align-middle">
+                                                    ID
+                                                </td>
+                                                <td class="align-middle">
+                                                    N/A
+                                                </td>
+                                                <td class="align-middle">
+                                                    Active
+                                                </td>
+                                                <td class="align-middle">
+                                                    <a href="#">
+                                                        <img src="../frontend/icons/ic_delete.svg" alt="delete">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="align-middle">
+                                                    <img src="../frontend/images/member_row_2.png" alt="Member">
+                                                </td>
+                                                <td class="align-middle">
+                                                    Annisa Lestari
+                                                </td>
+                                                <td class="align-middle">
+                                                    ID
+                                                </td>
+                                                <td class="align-middle">
+                                                    30 days
+                                                </td>
+                                                <td class="align-middle">
+                                                    Active
+                                                </td>
+                                                <td class="align-middle">
+                                                    <a href="#">
+                                                        <img src="../frontend/icons/ic_delete.svg" alt="delete">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                </table>
+                            </div>
+                            <div class="member mt-3">
+                                <h2>Add Member</h2>
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <label for="username" class="sr-only">Username</label>
+                                        <input type="text" name="username" class="form-control mb-2 mr-sm-2" placeholder="Username">
+                                        <label for="visa" class="sr-only">Visa</label>
+                                        <select name="visa" class=" custom-select mb-2 mr-sm-2">
+                                            <option value="VISA">VISA</option>
+                                            <option value="30 Days">30 Days</option>
+                                            <option value="N/A">N/A</option>
+                                        </select>
+                                        <label for="datePassport" class="sr-only">DD Passport</label>
+                                        <div class="input-group mb-2 mr-sm-2">
+                                            <input type="text" name="datePassport" class="form-control datepicker" placeholder="Passport">
+                                        </div>
+                                        <button type="submit" class="btn btn-add-now mb-2 px-4">Add Now</button>
+                                    </div>
+                                </form>
+                                <h3 class="mt-2 mb-0">Note</h3>
+                                <p class="disclaimer mb-0">
+                                    You’re only able to invite member that has alerady been registered in iTravel
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-details card-right">
+                            <h2>Checkout Information</h2>
+                            <table class="trip-info">
+                                <tr>
+                                    <th width="50%">Members</th>
+                                    <td width="50%" class="text-right">2 people</td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Additional VISA</th>
+                                    <td width="50%" class="text-right">$190,00</td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Trip Price</th>
+                                    <td width="50%" class="text-right">$80,00 / person</td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Sub Total</th>
+                                    <td width="50%" class="text-right">$280,00</td>
+                                </tr>
+                                <tr>
+                                    <th width="50%">Total (+Unique)</th>
+                                    <td width="50%" class="text-right unique">
+                                        <span class="text-blue">$279,33</span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <hr>
+                            <h2>Payment Instructions</h2>
+                            <p class="payment-instruction">
+                                Please complete your transaction before you continue the wonderful trip
+                            </p>
+                            <div class="bank">
+                                <div class="bank-item pb-3">
+                                    <img src="../frontend/icons/ic_card.svg" alt="card from bank" class="bank-image">
+                                    <div class="description">
+                                        <h3>PT Jayawijaya Travel</h3>
+                                        <p>
+                                            1111 2222 3333
+                                            <br>
+                                            Bank Mandiri
+                                        </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="bank-item pb-3">
+                                    <img src="../frontend/icons/ic_card.svg" alt="card from bank" class="bank-image">
+                                    <div class="description">
+                                        <h3>PT Jayawijaya Travel</h3>
+                                        <p>
+                                            1234 5678 9012
+                                            <br>
+                                            Bank Nasional Indonesia
+                                        </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="join-container">
+                            <a class="btn btn-block btn-join-now mt-3 py-2" href="checkout-success.html" role="button">I Have Made Payment</a>
+                        </div>
+                        <div class="text-center mt-3">
+                            <a href="details.html" class="text-muted">
+                                Cancel Booking
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="section-footer mt-5 mb-4 border-top">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h5>FEATURES</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Reviews</a></li>
+                                <li><a href="#">Community</a></li>
+                                <li><a href="#">Social Media Kit</a></li>
+                                <li><a href="#">Affiliate</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h5>ACCOUNT</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Refund</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Awards</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h5>COMPANY</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Media</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <h5>GET CONNECTED</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Surabaya, Jawa Timur</a></li>
+                                <li><a href="#">Indonesia</a></li>
+                                <li><a href="#">0812 - 345 - 6789</a></li>
+                                <li><a href="#">support@itravel.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row border-top justify-content-center align-items-center pt-4">
+                <div class="col-auto footer-text">
+                    2021 Copyright iTravel. All rights reserved. Made in Indonesia
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../frontend/lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="../frontend/lib/bootstrap/js/bootstrap.js"></script>
+    <script src="../frontend/lib/gjigo/js/gijgo.min.js"></script>
+    <script>
+        $('.datepicker').datepicker({
+            uiLibrary: 'bootstrap4', 
+            icons: {
+                rightIcon: '<img src="../frontend/icons/ic_date.svg" alt="Member">'
+            } 
+        });
+    </script>
+</body>
+</html>
